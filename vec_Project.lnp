@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "delay.o" "globel.o" "i2c.o" "kpm.o" "lcd.o" "project_main.o" "uart_int_test.o" --strict --scatter "vec_Project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\vec_Project.map" -o "vec_Project.axf"

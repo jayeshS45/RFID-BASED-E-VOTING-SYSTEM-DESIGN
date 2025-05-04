@@ -1,0 +1,1 @@
+globel.o: globel.c

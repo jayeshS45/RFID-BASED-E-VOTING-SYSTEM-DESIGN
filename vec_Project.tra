@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'vec_Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"globel.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"kpm.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"project_main.o"'
+### List of Objects: adding '"uart_int_test.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "delay.o" "globel.o" "i2c.o" "kpm.o" "lcd.o" "project_main.o" "uart_int_test.o" --strict --scatter "vec_Project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\vec_Project.map" -o "vec_Project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'vec_Project.axf'
+### ADS-LD Command File: 'vec_Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'vec_Project.lnp', Handle=0x00000310
+### Writing '.lnp' file
+### ADS-LD Command file 'vec_Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
